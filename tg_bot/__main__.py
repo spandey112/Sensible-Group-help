@@ -18,10 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-holla {}, my name is {}! if you have any questions about how to use me please give me /help... 
-
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
-
+Holla {}, my name is {}! if you have any questions about how to use me please give me /help... 
 """
 
 HELP_STRINGS = """
