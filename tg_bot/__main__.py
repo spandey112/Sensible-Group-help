@@ -18,12 +18,12 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Holla {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Holla {}, my name is {}! if you have any questions about how to use me please give me /help... The Creator Of This Bot Is @ceowhitehatcracks
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hello! my name *{}* This Is A Sensible Group Help Bot Made By @ceowhitehatcracks.
 
 *Main* available commands:
  - /start: Start the bot...
@@ -129,7 +129,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("waked up😏😏😏")
+        update.effective_message.reply_text("Sensible Group Help Bot Is Alive And In Service")
 
 
 # for test purposes
